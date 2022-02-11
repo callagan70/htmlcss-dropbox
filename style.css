@@ -1,3 +1,5 @@
+/* ANCHOR Inizio utility */
+
 *{Padding: 0;
 Margin: 0;
 Box-sizing: border-box}
@@ -10,8 +12,6 @@ clear: both;}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* FINE UTILITY */
 
 /* ANCHOR INIZIO header */
 
@@ -30,7 +30,6 @@ header a{
     color: black}
 
 /* ANCHOR Inizio blocco di sinistra */
-
 
 .header-cont-left{
     /* width: 600px; */
@@ -63,6 +62,18 @@ header a{
     color: white;
     padding: 5px 10px;}
 
-/* ANCHOR Inizio prima section */
+/* ANCHOR Inizio prima SECTION */
+
+.first section{
+    
+}
+.first-container{
 
 
+}
+
+.first-container-left{
+
+
+
+}
