@@ -83,10 +83,11 @@ header a{
 /* border: 1px solid black; */
     float: left;
     position: absolute;
-    width: 10%;
-    margin-top: 15%;
+    width: 30%;
+    margin-top: 335px;
     margin-left: 10%;
-    background-color: rgb(6, 253, 80);
+/* background-color: rgb(6, 253, 80); */
+    font-size: 1.5em;
 
 }
 
@@ -94,17 +95,35 @@ header a{
 /* border: 1px solid black; */
 /* background-color: blue; */
     width: 80%;
-    transform: scale(50%);
+    transform: scale(45%);
     float: right;
+    margin-top: 40px;
 }
 
-/* FIXME centrare meglio il testo */
 .first-section-title{
     position: absolute;
     font-size: 4em;
-    text-align: center;
+    text-align: left;
     left: 10%;
     right: 10%;
-    top: 20px;
+    top: 50px;
+}
+
+/* FIXME da mettere a posto le cose */
+.first-container-left-buttom{
+    font-size: 0.8em;
+    text-decoration: none;
+    background-color: blue;
+    color: red;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.first-container-left-arrow{
+    content: attr(\2193);
+    font-size: 20px;
+
 }
 
