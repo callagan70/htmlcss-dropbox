@@ -152,7 +152,7 @@ header a{
 }
 
 .second-section-plan{
-    background-color: red;
+    /* background-color: red; */
     height: 1000px;
     width: 1300px;
     position: absolute;
@@ -162,7 +162,7 @@ header a{
 /* FIXME - Manca il bordo tra le colonne */
 .second-section-left{
 float: left;
-background-color: aqua;
+/* background-color: aqua; */
 height: 900px;
 width: calc(100% / 3);
 display: inline-block;
@@ -170,7 +170,7 @@ border: 1px solid black;
 }
 
 .second-section-middle{
-background-color:rgb(57, 18, 231);
+/* background-color:rgb(57, 18, 231); */
 height: 900px;
 width: calc(100% / 3);
 display: inline-block;
