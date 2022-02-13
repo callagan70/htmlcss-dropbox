@@ -129,7 +129,7 @@ header a{
 
 .second-section-title{
     position: absolute;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: auto;
     height: 50px;
     font-size: 3em;
@@ -141,7 +141,6 @@ header a{
 }
 /* FIXME - Da distanziare il testo dal tasto e cambiare il tipo di tasto */
 .second-section-input{
-    border: 1px solid black;
     position: absolute;
     width: auto;
     height: 50px;
@@ -153,53 +152,47 @@ header a{
 
 .second-section-plan{
     /* background-color: red; */
-    height: 1000px;
+    height: 900px;
+    display: flex;
     width: 1300px;
-    position: absolute;
-    top: 350px;
-    left: 450px;
+    margin-left: 25%;
 }
-/* FIXME - Manca il bordo tra le colonne */
+
 .second-section-left{
-float: left;
-/* background-color: aqua; */
-height: 900px;
-width: calc(100% / 3);
-display: inline-block;
-border: 1px solid black;
+    height: 900px;
+    width: 400px;
+    display: inline-block;
+    border: 1px solid black;
 }
 
 .second-section-middle{
-/* background-color:rgb(57, 18, 231); */
-height: 900px;
-width: calc(100% / 3);
-display: inline-block;
-border: 1px solid black;
+    height: 900px;
+    width: 400px;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 50px;
 }
 
 .second-section-right{
-float: right;
-background-color: bisque;
-height: 900px;
-width: calc(100% / 3);
-display: inline-block;
-border: 1px solid black;
+    height: 900px;
+    width: 400px;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 50px;
 }
 
 .second-section-left-header{
     font-size: 2em;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
+    padding: 3px;
 }
-
-/* FIXME - da capire meglio come mai non si allinea al centro il testo */
 
 .free-try{
     background-color: blue;
     text-align: center;
-    /* vertical-align: middle; */
     padding: 15px;
-    width: 350px;
+    width: 300px;
     margin-left: 5px;
 }
 
@@ -228,3 +221,36 @@ border: 1px solid black;
             height: 20px;
             width: 80%;}
 
+/* ANCHOR - FOOTER second section */
+
+.footer-second-section{
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 25px;
+    width: 1300px;
+    margin-left: 25%;}
+
+.footer-second-section-header{
+    text-align: center;
+    font-size: 1.1em;
+    height: 10%;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+ .footer-second-section-header-left{
+    float: left;
+    border: 1px solid black;
+    width: 68%;
+    height: 90%;
+    padding: 30px;
+ }
+
+ .footer-second-section-header-right{
+    float: right;
+    border: 1px solid black;
+    width: 32%;
+    height: 90%;
+
+ }
