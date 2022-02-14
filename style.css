@@ -1,4 +1,4 @@
-/* ANCHOR Inizio utility */
+/* ANCHOR - utility */
 
 *{Padding: 0;
 Margin: 0;
@@ -12,6 +12,11 @@ clear: both;}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+/* NOTE - Note
+    Section
+        width: 1300px;
+        margin-left: 25%;
+*/
 
 /* ANCHOR INIZIO header */
 
@@ -123,7 +128,7 @@ header a{
 .second-section{
     /* background-color: orange; */
     width: 100%;
-    height: 2000px;
+    height: 1800px;
     position: relative;
 }
 
@@ -222,38 +227,174 @@ header a{
             width: 80%;}
 
 /* ANCHOR - FOOTER second section */
-
+/* FIXME - aggiustare altezza "footer-second-section" */
 .footer-second-section{
-    width: 100%;
+    width: 1300px;
     height: 350px;
     border: 1px solid black;
     margin-top: 25px;
     width: 1300px;
+    margin-left: 25%;}
+
+    .footer-second-section-header{
+        text-align: center;
+        font-size: 1.1em;
+        height: 13%;
+        border-bottom: 1px solid black;
+        padding: 5px;}
+
+    .footer-second-section-header-left{
+        float: left;
+        width: 68%;
+        height: 87%;
+        padding: 30px;}
+
+    .footer-second-section-header-right{
+        float: right;
+        width: 32%;
+        height: 10%;
+        text-align: center;
+        padding: 8px;
+        background-color: blue;
+        color: white;
+        margin-top: 2%;}
+        .footer-second-section-header-right a{
+            color: white;
+            text-decoration: none;}
+
+/* ANCHOR  - Inizio third-SECTION */
+.third-section{
+    width: 1300px;
     margin-left: 25%;
-}
+    height: 500px;
+    display: flex;}
 
-.footer-second-section-header{
-    text-align: center;
-    font-size: 1.1em;
-    height: 10%;
-    border-bottom: 1px solid black;
-    padding: 5px;
-}
+    .third-section-left{
+        width: 50%;
+        height: 100%;
+        background-image: url('./img/partner.png');
+        background-repeat: no-repeat;
+        background-size: contain;}
 
-.footer-second-section-header-left{
-    float: left;
-    width: 68%;
-    height: 90%;
-    padding: 30px;
-}
+    .third-section-right{
+        width: 30%;
+        height: 50%;
+        margin-top: 30px;}
 
-.footer-second-section-header-right{
-    float: right;
-    width: 32%;
-    height: 10%;
-    text-align: center;
-    padding: 5px;
-    background-color: blue;
-    color: white;
-    margin-top: 2%;
+        .third-section-right h3{
+            font-size: 1em;}
+
+        .third-section-right-button{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            width: 45%;}
+
+        .third-section-right-button a{
+            text-decoration: none;}
+
+/* ANCHOR - Inizio fourth-section */
+.fourth-section{
+    width: 1300px;
+    margin-left: 25%;
+    margin-top: 75px;
+    height: 1500px;
+    border: 1px solid black;
+    background-color: antiquewhite;}
+
+/* NOTE - fourth-section common */
+.block-dim{
+    width: calc(100% / 3);
+
+
 }
+/* FIXME - l'altezza rompe in basso di 35px */
+    .fourth-section-header{
+        width: 100%;
+        height: 35px;
+        padding: 5px;}
+    
+    .fourth-section_body_row-one{
+        display: flex;
+        height: 50%;
+    }
+        .fourth-section_body_row-one_left{
+            background-color: red;
+        }
+            .fourth-section_body_row-one_left_img{
+                background-image: url(./img/business-feature-switching-tools.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                height: 80%;
+            }
+
+        .fourth-section_body_row-one_middle{
+            background-color: rgb(222, 236, 25);
+            margin-left: 10px;
+        }
+            .fourth-section_body_row-one_middle_img{
+                background-image: url(./img/business-feature-coordinate-it.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                height: 80%;
+            }
+
+        .fourth-section_body_row-one_right{
+            background-color: rgb(250, 192, 1);
+            margin-left: 10px;
+        }
+            .fourth-section_body_row-one_right_img{
+                background-image: url(./img/business-feature-multi-device.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                height: 80%;
+        }
+
+    .fourth-section_body_row-two{
+        display: flex;
+        height: 50%;
+
+        }
+
+        .fourth-section_body_row-two_left{
+            background-color: rgb(52, 8, 248);
+            
+        }
+
+            .fourth-section_body_row-two_left_img{
+                background-image: url(./img/business-feature-integrations-it.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                height: 80%;}
+
+        .fourth-section_body_row-two_middle{
+            background-color: rgb(139, 223, 238);
+            margin-left: 10px;
+
+        }
+
+            .fourth-section_body_row-two_middle_img{
+                background-image: url(./img/business-feature-send-files-it.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                height: 80%;
+        }
+
+        .fourth-section_body_row-two_right{
+            background-color: rgb(250, 80, 1);
+            margin-left: 10px;
+
+
+        }
+            .fourth-section_body_row-two_right_img{
+                background-image: url(./img/business-feature-security.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                height: 80%;
+    }
