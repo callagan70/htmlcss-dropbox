@@ -404,14 +404,6 @@ header a{
 
 }
 
-/* ANCHOR - BORDER di Prova */
-/* .try-border{
-    border: 1px solid red;
-    height: 400px;
-    width: calc(100%/2);
-} */
-
-
 .fifth-section_cont-img{
     border: 1px solid rgb(8, 8, 8);
     width: 1300px;
@@ -419,34 +411,51 @@ header a{
     display: flex;
 }
 
-    /* ANCHOR fifth-section_cont-img_left */
+/* ANCHOR 5° Sezione cont-img padre sinistra */
     .fifth-section_cont-img_left{
         width: calc(100% / 3);
         height: 400px;
-        background-color: crimson;
+        /* background-color: crimson; */
         display: inline-block;
 }
 
-        /* ANCHOR fifth-section_cont-img_left_hight */
+/* ANCHOR Classi comuni ai loghi */
+        .logo{
+            filter: invert(1);
+            position: absolute;
+            height: 100px;
+
+        }
+
+        .logo img{
+            position: relative;
+            width: 35%;
+            top: 50%;
+            left: 50%;
+            transform:translate(-110%, -10%)
+        }
+
+/* ANCHOR 5° Sezione cont-img sinistra alta */
         .fifth-section_cont-img_left_hight{
             height: 50%;
-            background-color: darkorange;
         }
             .fifth-section_cont-img_left_hight_left{
+                border: 1px solid orange;
                 float: left;
                 width: 50%;
                 height: 100%;
-                background-color: black;
+                background-color: #A2D39B;
             }
+
 
             .fifth-section_cont-img_left_hight_right{
                 float: right;
                 width: 50%;
                 height: 100%;
-                background-color: aqua;
+                background-color: #61082B;
             }
 
-        /* ANCHOR - fifth-section_cont-img_left_low */
+/* ANCHOR 5° Sezione cont-img sinistra bassa */
         .fifth-section_cont-img_left_low{
             height: 50%;
             background-color: white;}
@@ -455,14 +464,14 @@ header a{
                 float: left;
                 width: 50%;
                 height: 100%;
-                background-color: rgb(238, 74, 74);
+                background-color: #0093CE;
             }
 
             .fifth-section_cont-img_left_low_right{
                 float: right;
                 width: 50%;
                 height: 100%;
-                background-color: rgb(80, 238, 66);
+                background-color: #FF1C1C;
             }
 
     .fifth-section_cont-img_middle{
