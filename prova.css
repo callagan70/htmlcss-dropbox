@@ -1,0 +1,45 @@
+.fifth-section{
+    border: 1px solid rgb(8, 8, 8);
+    width: 1300px;
+    margin-left: 25%;
+    /* height: 150px; */
+    /* margin-top: 50px; */
+}
+
+.fifth-section_cont-img{
+    border: 1px solid rgb(8, 8, 8);
+    width: 1300px;
+    height: 400px;
+    display: flex;
+}
+
+.logo-dim{
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    filter: invert(1);
+}
+
+/* ANCHOR 5° Sezione cont-img sinistra alta */
+.fifth-section_cont-img_left_hight{
+    height: 50%;
+}
+    .fifth-section_cont-img_left_hight_left{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-image: url(./img/designit.svg);
+        background-color: #A2D39B;
+    }
+
+    .fifth-section_cont-img_left_hight_right{
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-image: url(./img/arizona_state_university.svg);
+        background-color: #61082B;
+    }
+
+
+  
+    
