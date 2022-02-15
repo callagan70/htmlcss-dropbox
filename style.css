@@ -156,35 +156,30 @@ header a{
 }
 
 .second-section-plan{
-    /* background-color: red; */
     height: 900px;
     display: flex;
     width: 1300px;
-    margin-left: 25%;
-}
+    margin-left: 25%;}
 
-.second-section-left{
-    height: 900px;
-    width: 400px;
-    display: inline-block;
-    border: 1px solid black;
-}
+    .second-section-left{
+        height: 900px;
+        width: 400px;
+        display: inline-block;
+        border: 1px solid black;}
 
-.second-section-middle{
-    height: 900px;
-    width: 400px;
-    display: inline-block;
-    border: 1px solid black;
-    margin-left: 50px;
-}
+    .second-section-middle{
+        height: 900px;
+        width: 400px;
+        display: inline-block;
+        border: 1px solid black;
+        margin-left: 50px;}
 
-.second-section-right{
-    height: 900px;
-    width: 400px;
-    display: inline-block;
-    border: 1px solid black;
-    margin-left: 50px;
-}
+    .second-section-right{
+        height: 900px;
+        width: 400px;
+        display: inline-block;
+        border: 1px solid black;
+        margin-left: 50px;}
 
 .second-section-left-header{
     font-size: 2em;
@@ -218,10 +213,12 @@ header a{
 .list-text-check{
     display: flex;
     margin-bottom: 25px;}
+
         .check{
             height: 20px;
             width: 5%;
             color: blue;}
+    
         .text-check{
             height: 20px;
             width: 80%;}
@@ -311,12 +308,12 @@ header a{
 /* FIXME - l'altezza rompe in basso di 35px */
     .fourth-section-header{
         width: 100%;
-        height: 35px;
+        height: 40px;
         padding: 5px;}
     
     .fourth-section_body_row-one{
         display: flex;
-        height: 50%;
+        height: 48%;
     }
         .fourth-section_body_row-one_left{
             background-color: red;
@@ -343,26 +340,21 @@ header a{
 
         .fourth-section_body_row-one_right{
             background-color: rgb(250, 192, 1);
-            margin-left: 10px;
-        }
+            margin-left: 10px;}
+
             .fourth-section_body_row-one_right_img{
                 background-image: url(./img/business-feature-multi-device.png);
                 background-repeat: no-repeat;
                 background-size: contain;
                 width: 100%;
-                height: 80%;
-        }
+                height: 80%;}
 
     .fourth-section_body_row-two{
         display: flex;
-        height: 50%;
-
-        }
+        height: 48%;}
 
         .fourth-section_body_row-two_left{
-            background-color: rgb(52, 8, 248);
-            
-        }
+            background-color: rgb(52, 8, 248);}
 
             .fourth-section_body_row-two_left_img{
                 background-image: url(./img/business-feature-integrations-it.png);
@@ -373,28 +365,165 @@ header a{
 
         .fourth-section_body_row-two_middle{
             background-color: rgb(139, 223, 238);
-            margin-left: 10px;
-
-        }
+            margin-left: 10px;}
 
             .fourth-section_body_row-two_middle_img{
                 background-image: url(./img/business-feature-send-files-it.png);
                 background-repeat: no-repeat;
                 background-size: contain;
                 width: 100%;
-                height: 80%;
-        }
+                height: 80%;}
 
         .fourth-section_body_row-two_right{
             background-color: rgb(250, 80, 1);
-            margin-left: 10px;
+            margin-left: 10px;}
 
-
-        }
             .fourth-section_body_row-two_right_img{
                 background-image: url(./img/business-feature-security.png);
                 background-repeat: no-repeat;
                 background-size: contain;
                 width: 100%;
-                height: 80%;
+                height: 80%;}
+
+/* !SECTION */
+
+/* SECTION START Fifth SECTION */
+/* FIXME Caratteri e colori */
+.fifth-section{
+    border: 1px solid rgb(8, 8, 8);
+    width: 1300px;
+    margin-left: 25%;
+    /* height: 150px; */
+    /* margin-top: 50px; */
+}
+
+.fifth-section_Header{
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 1300px;
+    border: 1px solid black;
+
+}
+
+/* ANCHOR - BORDER di Prova */
+/* .try-border{
+    border: 1px solid red;
+    height: 400px;
+    width: calc(100%/2);
+} */
+
+
+.fifth-section_cont-img{
+    border: 1px solid rgb(8, 8, 8);
+    width: 1300px;
+    height: 400px;
+    display: flex;
+}
+
+    /* ANCHOR fifth-section_cont-img_left */
+    .fifth-section_cont-img_left{
+        width: calc(100% / 3);
+        height: 400px;
+        background-color: crimson;
+        display: inline-block;
+}
+
+        /* ANCHOR fifth-section_cont-img_left_hight */
+        .fifth-section_cont-img_left_hight{
+            height: 50%;
+            background-color: darkorange;
+        }
+            .fifth-section_cont-img_left_hight_left{
+                float: left;
+                width: 50%;
+                height: 100%;
+                background-color: black;
+            }
+
+            .fifth-section_cont-img_left_hight_right{
+                float: right;
+                width: 50%;
+                height: 100%;
+                background-color: aqua;
+            }
+
+        /* ANCHOR - fifth-section_cont-img_left_low */
+        .fifth-section_cont-img_left_low{
+            height: 50%;
+            background-color: white;}
+
+            .fifth-section_cont-img_left_low_left{
+                float: left;
+                width: 50%;
+                height: 100%;
+                background-color: rgb(238, 74, 74);
+            }
+
+            .fifth-section_cont-img_left_low_right{
+                float: right;
+                width: 50%;
+                height: 100%;
+                background-color: rgb(80, 238, 66);
+            }
+
+
+
+    .fifth-section_cont-img_middle{
+        width: calc(100% / 3);
+        height: 400px;
+        background-color: rgb(77, 220, 20);
+        display: inline-block;}
+
+    /* ANCHOR fifth-section_cont-img_left */
+    .fifth-section_cont-img_right{
+        width: calc(100% / 3);
+        height: 400px;
+        background-color: rgb(4, 0, 255);
+        display: inline-block;
     }
+
+        .fifth-section_cont-img_right_hight{
+            height: 50%;
+            background-color: rgb(17, 17, 16);
+
+        }
+
+            .fifth-section_cont-img_right_hight_left{
+                float: left;
+                width: 50%;
+                height: 100%;
+                background-color: coral;
+
+            }
+
+            .fifth-section_cont-img_right_hight_right{
+                float: right;
+                width: 50%;
+                height: 100%;
+                background-color: burlywood;
+        
+            }
+
+
+
+
+
+        .fifth-section_cont-img_right_low{
+            height: 50%;
+            background-color: white;
+        }
+            .fifth-section_cont-img_right_low_left{
+                float: left;
+                width: 50%;
+                height: 100%;
+                background-color: rgb(250, 51, 1);
+
+            }
+
+            .fifth-section_cont-img_right_low_right{
+                float: left;
+                width: 50%;
+                height: 100%;
+                background-color: rgb(56, 247, 39);
+
+            }
