@@ -534,6 +534,9 @@ header a{
         width: 500px;
         font-weight: bold;
     }
+
+/* FIXME bottono non funziona  */
+
     .fifth-section_footer_right-buttom{
         position: relative;
         width: 300px;
@@ -541,9 +544,63 @@ header a{
         background-color: white;
         padding: 10px;
         top: 30%;
-        left:60%
+        left:60%;
     }
 
     .fifth-section_footer_right-buttom a{
         text-decoration: none;
     }
+
+
+/* SECTION 6° Sezione Inizio */
+
+.sixth-section{
+    width: 100%;
+    height: 2000px;
+    position: relative;
+
+}
+
+    .sixth-section_body{
+        position: absolute;
+        width: 80%;
+        height: 75%;
+        left: 10%;
+        right: 10%;
+        top: 500px; 
+        bottom: 200px;
+    }
+
+    .sixth-section_body_title{
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .sixth-section_menu{
+        margin-top: 200px;
+        height: 100px;
+        display: block;
+    }
+
+    .sixth-section_menu_list_left{
+        float: left;
+        margin-top: 35px;
+        width: max-content;
+        display: inline-block;
+    }
+
+        .menu-border{
+            /* width: 600px; */
+            margin:20px;
+            border-style: solid none solid none;
+        }
+    
+    .sixth-section_menu_list_right{
+        float: right;
+        margin-top: 20px;
+        display: inline-block;
+        font-size: 2em;
+        margin-right: 50px;
+
+    }
+    
