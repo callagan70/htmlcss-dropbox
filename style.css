@@ -22,12 +22,15 @@ body{
 
 header{
     width: 100%;
-    height: 100px;
-    /* background-color: aqua; */
+    height: 75px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
 }
 
 .cont-header{
-    display: block;}
+    display: block;
+}
 
 header a{
     text-decoration: none;
@@ -67,93 +70,89 @@ header a{
     color: white;
     padding: 5px 10px;}
 
-/* ANCHOR Inizio prima SECTION */
+/* SECTION Inizio prima SECTION */
 
 .first-section{
     position: relative;
-    height: 750px;
+    height: 900px;
     background-color: #B4D0E7;
     width: 100%;
 }
 
-.first-container{
+    .first-section-title{
+        position: absolute;
+        font-size: 4em;
+        text-align: left;
+        left: 10%;
+        right: 10%;
+        top: 100px;
+    }
 
+    .first-section-left{
+        float: left;
+        position: absolute;
+        width: 30%;
+        margin-top: 450px;
+        margin-left: 10%;
+        font-size: 1.5em;
+    }
 
-}
+    .first-section-left-buttom{
+        margin-top: 30px;
+        background-color: rgba(0, 0, 255, 0.76);
+        /* color: white; */
+        width: 400px;
+        padding: 10px;
+        text-align: center;
+    }
+        .first-section-left-buttom a{
+            color: white;
+            font-size: 0.9em;
+        }
+/* FIXME Aggiustare freccia, magari con una immagine */
+    .first-section-left-arrow{
+        margin-top: 50px;
+        font-size: 6empx;
+    }
 
-.first-container-left{
-    float: left;
-    position: absolute;
-    width: 30%;
-    margin-top: 335px;
-    margin-left: 10%;
-    font-size: 1.5em;
-}
+    .first-section-righ{
+        width: 80%;
+        transform: scale(45%);
+        float: right;
+        margin-top: 200px;
+    }
 
-.first-container-righ{
-    width: 80%;
-    transform: scale(45%);
-    float: right;
-    margin-top: 40px;
-}
-
-.first-section-title{
-    position: absolute;
-    font-size: 4em;
-    text-align: left;
-    left: 10%;
-    right: 10%;
-    top: 50px;
-}
-
-/* FIXME da mettere a posto le cose */
-.first-container-left-buttom{
-    font-size: 1em;
-    text-decoration: none;
-    /* background-color: blue; */
-    color: red;
-    width: 400px;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.first-container-left-arrow{
-    content: attr(\2193);
-    font-size: 20px;
-}
-
-/* ANCHOR inizio seconda SECTION */
+/* !SECTION */
+/* SECTION inizio seconda SECTION */
 
 .second-section{
-    /* background-color: orange; */
     width: 100%;
     height: 1800px;
     position: relative;
 }
 
-.second-section-title{
-    position: absolute;
-    /* border: 1px solid black; */
-    width: auto;
-    height: 50px;
-    font-size: 3em;
-    text-align: center;
-    vertical-align: middle;
-    left: 0%;
-    right: 0%;
-    top: 250px;
-}
-/* FIXME - Da distanziare il testo dal tasto e cambiare il tipo di tasto */
-.second-section-input{
-    position: absolute;
-    width: auto;
-    height: 50px;
-    margin-left: 15px;
-    font-size: 1.1em;
-    top: 310px;
-    left: 450px;
-}
+    .second-section-title{
+        position: absolute;
+        width: auto;
+        height: 50px;
+        font-size: 3em;
+        text-align: center;
+        vertical-align: middle;
+        left: 0%;
+        right: 0%;
+        top: 250px;
+    }
+
+    .second-section-input{
+        position: absolute;
+        width: auto;
+        height: 50px;
+        margin-left: 15px;
+        margin-top: 30px;
+        font-size: 1.1em;
+        top: 310px;
+        left: 450px;
+    }
 
 .second-section-plan{
     height: 900px;
@@ -181,11 +180,11 @@ header a{
         border: 1px solid black;
         margin-left: 50px;}
 
-.second-section-left-header{
-    font-size: 2em;
-    border-bottom: 1px solid black;
-    text-align: center;
-    padding: 3px;
+    .second-section-left-header{
+        font-size: 2em;
+        border-bottom: 1px solid black;
+        text-align: center;
+        padding: 3px;
 }
 
 .free-try{
@@ -201,27 +200,25 @@ header a{
     text-decoration: none;
 }
 
-.second-section-left-body{
-    margin-left: 10%;
-    margin-top: 3%;
+.buy-now a{
+    color: blue;
 }
-/* FIXME - da cambiare colore "a" */
-.second-section-left-body a:nth-child(2){
-    color: rgb(248, 14, 25);
-}
+    .second-section-left-body{
+        margin-left: 10%;
+        margin-top: 3%;
+    }
 
-.list-text-check{
-    display: flex;
-    margin-bottom: 25px;}
+    .list-text-check{
+        display: flex;
+        margin-bottom: 25px;}
 
-        .check{
-            height: 20px;
-            width: 5%;
-            color: blue;}
-    
-        .text-check{
-            height: 20px;
-            width: 80%;}
+            .check{
+                height: 20px;
+                width: 5%;
+                color: blue;}
+            .text-check{
+                height: 20px;
+                width: 80%;}
 
 /* ANCHOR - FOOTER second section */
 /* FIXME - aggiustare altezza "footer-second-section" */
@@ -259,7 +256,8 @@ header a{
             color: white;
             text-decoration: none;}
 
-/* ANCHOR  - Inizio third-SECTION */
+ /* !SECTION */
+/* SECTION  - Inizio third-SECTION */
 .third-section{
     width: 1300px;
     margin-left: 25%;
@@ -290,6 +288,7 @@ header a{
         .third-section-right-button a{
             text-decoration: none;}
 
+/* !SECTION */
 /* SECTION - Inizio fourth-section */
 .fourth-section{
     width: 1300px;
