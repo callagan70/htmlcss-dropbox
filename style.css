@@ -70,7 +70,7 @@ header a{
     color: white;
     padding: 5px 10px;}
 
-/* SECTION Inizio prima SECTION */
+/* SECTION 1° Inizio */
 
 .first-section{
     position: relative;
@@ -123,7 +123,7 @@ header a{
     }
 
 /* !SECTION */
-/* SECTION inizio seconda SECTION */
+/* SECTION 2° inizio */
 
 .second-section{
     width: 100%;
@@ -257,7 +257,7 @@ header a{
             text-decoration: none;}
 
  /* !SECTION */
-/* SECTION  - Inizio third-SECTION */
+/* SECTION 3° Inizio */
 .third-section{
     width: 1300px;
     margin-left: 25%;
@@ -276,8 +276,13 @@ header a{
         height: 50%;
         margin-top: 30px;}
 
+        .third-section-right h1{
+            font-size: 1.3em;
+            font-weight: 900;}
+
         .third-section-right h3{
-            font-size: 1em;}
+            font-size: 1em;
+            font-weight: 500;}
 
         .third-section-right-button{
             border: 1px solid black;
@@ -294,16 +299,13 @@ header a{
     width: 1300px;
     margin-left: 25%;
     margin-top: 75px;
-    height: 1500px;
+    height: 1000px;
 }
 
 /* NOTE - fourth-section common */
 .block-dim{
     width: calc(100% / 3);
-
-
 }
-/* FIXME - l'altezza rompe in basso di 35px */
     .fourth-section-header{
         width: 100%;
         height: 60px;
@@ -311,10 +313,6 @@ header a{
         font-size: 1.5em;
         font-weight: bold;
     }
-/* .fourth-section_body_row_text{
-    font-size: 2em;
-    font-weight: bold;
-} */
 
     .fourth-section_body_row-one{
         display: flex;
@@ -396,7 +394,7 @@ header a{
 
 .fifth-section_Header{
     margin-left: 25%;
-    margin-top: 50px;
+    margin-top: 150px;
     width: 700px;
     margin-bottom: 50px;
 }
@@ -451,6 +449,7 @@ header a{
                 width: 50%;
                 height: 100%;
                 background-color: #A2D39B;
+                border: 10px solid #D0E9CD
             }
 
 
@@ -484,9 +483,19 @@ header a{
     .fifth-section_cont-img_middle{
         width: calc(100% / 3);
         height: 400px;
-        background-color: rgb(77, 220, 20);
-        display: inline-block;}
+        background-color: #F5F5F5;
+        display: inline-block;
+        padding: 40px;
+    }
 
+    .fifth-section_cont-img_middle img{
+        width: 30%;
+    }
+
+    .fifth-section_cont-img_middle{
+        font-size: 1.2em;
+
+    }
 /* ANCHOR 5° Sezione cont-img padre destra */
     .fifth-section_cont-img_right{
         width: calc(100% / 3);
@@ -537,10 +546,10 @@ header a{
     height: 400px;
     width: 100%;
     background-color: #B4D0E7;
-    position: absolute;
+    position: relative;
 }
     .fifth-section_footer_left{
-        position: relative;
+        position: absolute;
         left: 25%;
         top: 50%;
         font-size: 2.5em;
@@ -549,31 +558,25 @@ header a{
         font-weight: bold;
     }
 
-/* FIXME bottono non funziona  */
-
     .fifth-section_footer_right-buttom{
-        position: relative;
+        position: absolute;
         width: 300px;
         text-align: center;
         background-color: white;
         padding: 10px;
         top: 30%;
-        left:60%;
-    }
+        left:60%;}
 
     .fifth-section_footer_right-buttom a{
-        text-decoration: none;
-    }
+        text-decoration: none;}
 
 /* !SECTION */
 /* SECTION 6° Sezione Inizio */
 
 .sixth-section{
     width: 100%;
-    height: 2000px;
-    position: relative;
-
-}
+    height: 1200px;
+    position: relative;}
 
     .sixth-section_body{
         position: absolute;
@@ -581,7 +584,7 @@ header a{
         height: 75%;
         left: 10%;
         right: 10%;
-        top: 500px; 
+        top: 100px; 
         bottom: 200px;
     }
 
@@ -596,18 +599,12 @@ header a{
         display: block;
         margin:20px;
         border-style: solid none solid none;
-        transition: height 1s;
     }
 
     .sixth-section_menu:hover{
         height: 250px;
 
     }    
-
-    /* .menu-border{
-        margin:20px;
-        border-style: solid none solid none;
-        } */
 
         .sixth-section_menu_list_left{
             float: left;
