@@ -594,12 +594,20 @@ header a{
         margin-top: 200px;
         height: 100px;
         display: block;
-    }
-
-    .menu-border{
         margin:20px;
         border-style: solid none solid none;
-        }
+        transition: height 1s;
+    }
+
+    .sixth-section_menu:hover{
+        height: 250px;
+
+    }    
+
+    /* .menu-border{
+        margin:20px;
+        border-style: solid none solid none;
+        } */
 
         .sixth-section_menu_list_left{
             float: left;

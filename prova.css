@@ -1,8 +1,9 @@
+/* SECTION 6° Sezione Inizio */
+
 .sixth-section{
     width: 100%;
     height: 2000px;
     position: relative;
-
 }
 
     .sixth-section_body{
@@ -13,25 +14,30 @@
         right: 10%;
         top: 500px; 
         bottom: 200px;
+    }
 
+    .sixth-section_body_title{
+        font-size: 3em;
+        font-weight: bold;
     }
 
     .sixth-section_menu{
         margin-top: 200px;
         height: 100px;
         display: block;
-        transition: hight 2s;
-    }
-
-    .menu-border{
         margin:20px;
         border-style: solid none solid none;
-        padding: 10px;
-        transition: hight 2s;
-        }
+        transition: height 2s;
+        z-index: 2;
+    }
 
-        /* .sixth-section_menu: hover{
-            height: 100px;
+    .sixth-section_menu:hover{
+        height: 250px;
+    }
+
+    /* .menu-border{
+        margin:20px;
+        border-style: solid none solid none;
         } */
 
         .sixth-section_menu_list_left{
@@ -61,6 +67,9 @@
     
     .sixth-section_menu:hover .drop-text{
         display: block;
-        height: 100px;
+        height: 500px;
+
+        
     }
 
+    /* !SECTION */
