@@ -388,7 +388,7 @@ header a{
 
 /* !SECTION */
 
-/* SECTION START Fifth SECTION */
+/* SECTION 5° Inizio */
 /* FIXME Caratteri e colori */
 .fifth-section{
     width: 100%;
@@ -565,7 +565,7 @@ header a{
         text-decoration: none;
     }
 
-
+/* !SECTION */
 /* SECTION 6° Sezione Inizio */
 
 .sixth-section{
@@ -654,18 +654,31 @@ footer{
     font-weight: bold;
 }
 
-.footer-body_br{
+
+.end-footer{
     color: white;
     width: 100%;
     height: 100px;
-    padding: 200px;
+    padding: 100px 200px;
 }
 
-.footer-body_world{
-
-
-
+.end-footer select{
+    color: white;
+    background-color: black;
 }
 
+
+
+
+.sign{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+    .sign span{
+        color: red;
+        font-size: 2em;
+    }
 
 /* !SECTION  */
